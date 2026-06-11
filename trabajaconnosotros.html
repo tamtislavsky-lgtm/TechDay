@@ -55,6 +55,49 @@
             </tr>
         </table>
     </header>
-    <script src="./assets/app.js" defer></script>
+    <main>
+        <section>
+            <form action="" style="width: 20%;">
+                <fieldset>
+                    <legend>Informacion Personal</legend>
+                    <label for="nombre">Nombre: <input type="text" name="nombre" id="nombre"></label>
+                    <br>
+                    <label for="edad">Edad: <input type="number" name="edad" id="edad"></label>
+                    <br>
+                    <label for="numero">Número: <input type="number" name="numero" id="numero"></label>
+                    <br>
+                    <label for="genero">Genero: 
+                        <select name="genero" id="genero">
+                            <option value="op0">Seleccione una opcion</option>
+                            <option value="op1">Masculino</option>
+                            <option value="op2">Femenino</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label for="comentarios">¿Porque queres trabajar con nosotros?: 
+                        <br>
+                        <textarea name="comentarios" id="comentarios"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Capacidades</legend>
+                    <p>¿Tuviste otro trabajo?</p>
+                    <label for="respuesta1"><input type="radio" name="pregunta1" id="respuesta1">SI</label>
+                    <label for="respuesta2"><input type="radio" name="pregunta1" id="respuesta2">NO</label>
+                    <br>
+                    <br>
+                     <label for="comentarios2">¿Cual?: 
+                        <br>
+                        <textarea name="comentariosw" id="comentarios2"></textarea>
+                    </label>
+                    <br>
+                    <p>¿Trabajaste en otra cafetería?</p>
+                    <label for="respuesta3"><input type="radio" name="pregunta3" id="respuesta3">SI</label>
+                    <label for="respuesta4"><input type="radio" name="pregunta4" id="respuesta4">NO</label>
+                </fieldset>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
